@@ -963,7 +963,7 @@ scrollbar-width: none;  /* Firefox */
 	display: block;
 	padding-top: 80px;
 	padding-bottom: 16px;
-	background-color: #2D3B38;
+	background-color: #2F2E30;
 	color: #fff;
   }
   
@@ -989,6 +989,7 @@ scrollbar-width: none;  /* Firefox */
 	padding-bottom: 6px;
 	color: rgba(255, 255, 255, 0.6);
 	transition: all .2s ease;
+	text-decoration: none;
   }
   
   .footer-menu a:hover,
@@ -1010,12 +1011,14 @@ scrollbar-width: none;  /* Firefox */
 	border-radius: 50%;
 	text-align: center;
 	font-size: 18px;
-	background-color: #26312F;
+	background-color: transparent;
 	color: #ffff;
 	transition: all .2s ease;
+	border: 1px solid #ccd3df;
+	margin-right: 12px;
   }
   
   .footer-sosmed a:hover {
-	background-color: #00D9A5;
+	background-color: #5f4dee;
 	text-decoration: none;
   }
