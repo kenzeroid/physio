@@ -404,7 +404,7 @@
             console.log(name, ":", value)
         }
 
-        window.location.href = 'https://wa.me/+6282233327833'+"?text=Saya *"+data.get("nama")+"* membutuhkan bantuan tentang *"+
+        window.location.href = 'https://wa.me/+6287702133222'+"?text=Saya *"+data.get("nama")+"* membutuhkan bantuan tentang *"+
         data.get("pelayanan")+"* pada tanggal *"+data.get("date")+"* dengan keluhan *"+data.get("message")+"*";
     });
 
