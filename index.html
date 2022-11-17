@@ -77,7 +77,7 @@
                             <div class="text-container">
                                 <h1>Kami <a style="color: #5f4def">peduli</a> dengan anda dan keluarga</h1>
                                 <p class="p-large">konsultasi gerak dan fungsi tubuhmu bersama kami</p>
-                                <a class="btn-solid-lg page-scroll" href="sign-up.html">
+                                <a class="btn-solid-lg page-scroll" href="#janji">
                                     <i class="fa fa-paper-plane-o" aria-hidden="true" style="margin-right: 1rem;"></i>Buat janji
                                 </a>
                             </div> <!-- end of text-container -->
@@ -312,7 +312,93 @@
             </div> 
         </div> <!-- end of cards-1 -->
     </div>
-    <!-- end of layanan -->
+    <!-- end of Fisioterapis list -->
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row" style="text-align: center;">
+                <div class="col">
+                </div> <!-- end of col -->
+                <div class="col-5">
+                    <h2 class="h2-heading">Happy Client</h2>
+                </div> <!-- end of col -->
+                <div class="col">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    
+                    <!-- Text Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container text-slider">
+                            <div class="swiper-wrapper">
+                                <!-- Slide -->
+                                    
+                                    <div class="swiper-slide">
+                                            <div class="col-sm">
+                                                <div class="card-customer">
+                                                    <div class="card-image">
+                                                        <img src="images/customer-1.png" alt="alternative">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Suzana sulistiawati</h4>
+                                                        <h5 class="card-subtittle">Atlet lempar tanggung jawab</h5>
+                                                        <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam suspendisse gravida ultrices consectetur sodales.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+
+                                    <div class="swiper-slide">
+                                            <div class="col-sm">
+                                                <div class="card-customer">
+                                                    <div class="card-image">
+                                                        <img src="images/customer-1.png" alt="alternative">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Suzana sulistiawati</h4>
+                                                        <h5 class="card-subtittle">Atlet lempar tanggung jawab</h5>
+                                                        <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam suspendisse gravida ultrices consectetur sodales.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+
+                                    <div class="swiper-slide">
+                                            <div class="col-sm">
+                                                <div class="card-customer">
+                                                    <div class="card-image">
+                                                        <img src="images/customer-1.png" alt="alternative">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Suzana sulistiawati</h4>
+                                                        <h5 class="card-subtittle">Atlet lempar tanggung jawab</h5>
+                                                        <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam suspendisse gravida ultrices consectetur sodales.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+                                </div> <!-- end of swiper-wrapper -->
+                            </div>
+                            
+                            <!-- Add Arrows -->
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of text slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of testimonials -->
 
     <!-- Galery List -->
     <div id="galery-list">
@@ -339,27 +425,27 @@
     </div>
     <!-- end of layanan -->
 
-    <div class="janji">
+    <div class="janji" id="janji">
         <div class="container">
           <h1 class="h2-heading">Buat Janji</h1>
     
-          <form class="main-form">
+          <form class="main-form" id="formwhatsapp">
             <div class="row mt-5">
               <div class="col-12 col-sm-6 py-2">
-                <input type="text" class="form-control" placeholder="Nama">
+                <input type="text" id="nama" name="nama" class="form-control" placeholder="Nama" required>
               </div>
               <div class="col-12 col-sm-6 py-2">
-                <input type="text" class="form-control" placeholder="Nomor telepon">
+                <input type="tel" id="telpon" name="telpon" class="form-control" placeholder="Nomor telepon" maxlength="12" pattern="[0-9]+">
+              </div>
+              <div class="col-12 col-sm-6 py-2 quesadilla">
+                <input type="date" id="date" name="date" class="form-control" required>
               </div>
               <div class="col-12 col-sm-6 py-2">
-                <input type="date" class="form-control">
-              </div>
-              <div class="col-12 col-sm-6 py-2">
-                <select name="departement" id="departement" class="custom-select">
-                  <option value="general">Pelayanan Klikinik</option>
-                  <option value="cardiology">Home Visit</option>
-                  <option value="dental">Support event</option>
-                  <option value="neurology">Modalitas Fisioterapi</option>
+                <select name="pelayanan" id="pelayanan" class="custom-select" required>
+                  <option value="Pelayanan Klikinik">Pelayanan Klikinik</option>
+                  <option value="Home Visit">Home Visit</option>
+                  <option value="Support event">Support event</option>
+                  <option value="Modalitas Fisioterapi">Modalitas Fisioterapi</option>
                 </select>
               </div>
               <div class="col-12 py-2">

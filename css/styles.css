@@ -456,6 +456,30 @@ input[type='checkbox'] {
 }
 /* end of fade animation for image lightbox - magnific popup */
 
+input[type=”date”] {
+	position: relative;
+}
+	
+input[type=”date”]::-webkit-calendar-picker-indicator {
+	color: transparent;
+	background: none;
+	z-index: 1;
+}
+	
+input[type=”date”]:before {
+	color: white;
+	background: none;
+	display: block;
+	font-family: ‘FontAwesome’;
+	content: url('../images/home.svg');
+	/* This is the calendar icon in FontAwesome */
+	width: 15px;
+	height: 20px;
+	position: absolute;
+	top: 12px;
+	right: 6px;
+	color: #999;
+}
 
 /*************************/
 /*     02. Preloader     */
@@ -894,14 +918,88 @@ input[type='checkbox'] {
 	margin-right: 2rem;
 }
 
+/****************************/
+/*     12. Testimonials     */
+/****************************/
+.slider-2 {
+	background-color: whitesmoke;
+	padding-top: 2.75rem;
+	padding-bottom: 4rem;
+}
+
+.slider-2 .h2-heading{
+	margin-bottom: 1rem;
+    font-weight: bold;
+	margin-bottom: 5rem;
+	text-align: center;
+}
+
+.slider-2 .card-title{
+	font-weight: bold;
+}
+
+.slider-2 .card-subtittle{
+	font-weight: lighter;
+	padding-bottom: 1em;
+}
+
+.slider-2 .card-content{
+	color: rgb(112, 112, 112);
+}
+
+.slider-2 .swiper-container {
+	position: static;
+	width: 80%;
+	text-align: center;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+	background-color: #2F2E30;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.slider-2 .testimonial-text {
+	margin-bottom: 0.5rem;
+}
+
+.slider-2 .testimonial-author {
+	color: whitesmoke;
+}
+
+.slider-2 .swiper-button-prev,
+.slider-2 .swiper-button-next {
+	width: 1.125rem;
+}
+
+.slider-2 .swiper-button-prev:focus,
+.slider-2 .swiper-button-next:focus {
+	/* even if you can't see it chrome you can see it on mobile device */
+	outline: none;
+}
+
+.image-container {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 /********************************/
 /*     11. Gallery    */
 /*******************************/
 
+.galery-list{
+	padding-top: 2.75rem;
+	padding-bottom: 4rem;
+}
+
 .galery .h2-heading {
-	margin-bottom: 1rem;
-    font-weight: bold;
 	margin-bottom: 5rem;
+    font-weight: bold;
+	margin-top: 5rem;
 }
 
 .galery .image-list{
@@ -920,10 +1018,6 @@ input[type='checkbox'] {
 	display: none;
 }
 
-.image-container {
--ms-overflow-style: none;  /* IE and Edge */
-scrollbar-width: none;  /* Firefox */
-}
 
 /********************************/
 /*     11. Janji    */
