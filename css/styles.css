@@ -893,7 +893,7 @@ input[type=”date”]:before {
 	margin-right: 4rem;
 	margin-bottom: 3.5rem;
 	margin-left: 4rem;
-	padding-bottom: 1em;
+	padding-bottom: 2em;
 	padding-top: 1em;
 	border: none;
     font-size: small;
@@ -911,6 +911,7 @@ input[type=”date”]:before {
 
 .card-image{
 	position: relative;
+	padding-bottom: 3rem;
 }
 
 .card-image .desc{
