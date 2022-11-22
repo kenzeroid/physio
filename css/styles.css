@@ -748,7 +748,8 @@ input[type=”date”]:before {
 .cards-1 .h2-heading {
 	margin-bottom: 1rem;
     font-weight: bold;
-	background-color: aliceblue;
+	background-color: #2F2E30;
+	color: white;
 }
 
 .cards-1 .card {
@@ -824,7 +825,8 @@ input[type=”date”]:before {
 .cards-2 .h2-heading {
 	margin-bottom: 1rem;
     font-weight: bold;
-	background-color: aliceblue;
+	background-color: #2F2E30;
+	color: white;
 }
 
 .cards-2 .card-midle{
@@ -909,7 +911,8 @@ input[type=”date”]:before {
 .cards-3 .h2-heading {
 	margin-bottom: 1rem;
     font-weight: bold;
-	background-color: aliceblue;
+	background-color: #2F2E30;
+	color: white;
 }
 
 .card-image{
@@ -992,7 +995,8 @@ input[type=”date”]:before {
     font-weight: bold;
 	margin-bottom: 5rem;
 	text-align: center;
-	background-color: aliceblue;
+	background-color: #2F2E30;
+	color: white;
 }
 
 .slider-2 .card-title{
@@ -1067,8 +1071,9 @@ scrollbar-width: none;  /* Firefox */
 .galery .h2-heading {
 	margin-bottom: 5rem;
     font-weight: bold;
-	background-color: aliceblue;
+	background-color: #2F2E30;
 	margin-top: 5rem;
+	color: white;
 }
 
 .galery .image-list{
@@ -1102,7 +1107,8 @@ scrollbar-width: none;  /* Firefox */
     font-weight: bold;
 	margin-bottom: 5rem;
 	text-align: center;
-	background-color: aliceblue;
+	background-color: #2F2E30;
+	color: white;
 }
 
 .page-section {
