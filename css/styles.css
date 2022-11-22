@@ -766,6 +766,8 @@ input[type=”date”]:before {
 
 .cards-1 .card-image {
     margin-bottom: 2rem;
+	width: 42px;
+	height: 42px;
 }
 
 .cards-1 .card-title {
@@ -786,11 +788,6 @@ input[type=”date”]:before {
     padding-top: 8rem;
 	padding-bottom: 3rem;
     font-size: small;
-}
-
-.fisioterapis .text-container{
-    padding-top: 10%;
-    padding-left: 10%;
 }
 
 /***********************/
@@ -912,12 +909,13 @@ input[type=”date”]:before {
     font-weight: bold;
 }
 
-.cards-3 .card-image {
-    margin-bottom: 2rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
+.card-image{
+	position: relative;
 }
 
+.card-image .desc{
+	position: absolute;
+}
 /****************************/
 /*     12. Testimonials     */
 /****************************/
@@ -1099,16 +1097,12 @@ scrollbar-width: none;  /* Firefox */
   
   .footer-sosmed a {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
-	line-height: 42px;
 	border-radius: 50%;
 	text-align: center;
 	font-size: 18px;
 	background-color: transparent;
 	color: #ffff;
 	transition: all .2s ease;
-	border: 1px solid #ccd3df;
 	margin-right: 12px;
   }
   
